@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "img": "akita.jpg",
+    "title": "Акита-ину",
+    "description": "Среди пород собак, чья история уходит в глубину веков, особо выделяется акита-ину. «Акита» – это префектура в северной части Японии, а «ину» – по-японски «собака».",
+    "full": "  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam atque dolorum natus pariatur quaerat. Accusamus consequuntur cupiditate esse ex id iure laboriosam maiores natus nisi non, placeat, similique sit totam?   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam atque dolorum natus pariatur quaerat. Accusamus consequuntur cupiditate esse ex id iure laboriosam maiores natus nisi non, placeat, similique sit totam?"
+  },
+  {
+    "id": "2",
+    "img": "alabaj.jpg",
+    "title": "Алабай (среднеазиатская овчарка)",
+    "description": "Крупная аборигенная порода собак.",
+    "full": "  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam atque dolorum natus pariatur quaerat. Accusamus consequuntur cupiditate esse ex id iure laboriosam maiores natus nisi non, placeat, similique sit totam?   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam atque dolorum natus pariatur quaerat. Accusamus consequuntur cupiditate esse ex id iure laboriosam maiores natus nisi non, placeat, similique sit totam?"
+  },
+  {
+    "id": "3",
+    "img": "american-akita.jpg",
+    "title": "Американская акита",
+    "description": "Американская акита – порода собак с очень интересной судьбой",
+    "full": "  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam atque dolorum natus pariatur quaerat. Accusamus consequuntur cupiditate esse ex id iure laboriosam maiores natus nisi non, placeat, similique sit totam?   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam atque dolorum natus pariatur quaerat. Accusamus consequuntur cupiditate esse ex id iure laboriosam maiores natus nisi non, placeat, similique sit totam?"
+  },
+  {
+    "id": "4",
+    "img": "bernese.jpg",
+    "title": "Бернский зенненхунд",
+    "description": "Разводить эту породу начали не так давно – в начале 20-го века в Швейцарии, в городе Берн. Считается, что своим происхождением бернские зенненхунды, так же, как и все молоссы, обязаны тибетским мастифам.",
+    "full": "  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam atque dolorum natus pariatur quaerat. Accusamus consequuntur cupiditate esse ex id iure laboriosam maiores natus nisi non, placeat, similique sit totam?   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam atque dolorum natus pariatur quaerat. Accusamus consequuntur cupiditate esse ex id iure laboriosam maiores natus nisi non, placeat, similique sit totam?"
+  },
+  {
+    "id": "5",
+    "img": "bigl.jpg",
+    "title": "Бигль",
+    "description": "Бигль относится к породам собак среднего размера, выведенных для охоты. Согласно классификации FCI порода принадлежит группе гончих маленького размера. Собака этой породы хорошо подходит для содержания в квартире, очень общительна и дружелюбна. Бигль любит бегать и всегда энергичен, поэтому может стать отличным спутником для прогулок на свежем воздухе вместе с хозяином.",
+    "full": "  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam atque dolorum natus pariatur quaerat. Accusamus consequuntur cupiditate esse ex id iure laboriosam maiores natus nisi non, placeat, similique sit totam?   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam atque dolorum natus pariatur quaerat. Accusamus consequuntur cupiditate esse ex id iure laboriosam maiores natus nisi non, placeat, similique sit totam?"
+  }
+]
