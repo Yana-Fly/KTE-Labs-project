@@ -1,0 +1,37 @@
+.detail {
+  $detail: &;
+
+  .mat-mdc-card-content {
+    display: flex;
+
+    .mat-mdc-card-image.mdc-card__media {
+      max-width: 350px;
+      height: 350px;
+      margin-right: 25px;
+      object-fit: cover;
+    }
+
+    #{ $detail }__info {
+      display: flex;
+      flex-grow: 1;
+      flex-direction: column;
+      justify-content: space-between;
+
+      #{ $detail }__backlink {
+        align-self: flex-end;
+      }
+    }
+  }
+
+  &.error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    &__link {
+      color: #709FDC;
+    }
+  }
+}
+

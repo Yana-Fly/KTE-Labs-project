@@ -1,0 +1,22 @@
+.item-card {
+
+  mat-card-title {
+    cursor: pointer;
+  }
+
+  &__header-image {
+    background-size: cover;
+    background-position: center;
+  }
+
+  .mat-mdc-card-image {
+    max-height: 189px;
+    object-fit: cover;
+  }
+
+  mat-card-content {
+    height: 100px;
+    margin-top: 10px;
+    overflow: hidden;
+  }
+}

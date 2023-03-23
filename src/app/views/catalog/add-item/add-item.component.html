@@ -1,0 +1,27 @@
+<div class="add-item">
+  <div class="container">
+    <form class="add-item__form" [formGroup]="newItemForm">
+      <mat-card-title>Добавьте новую породу</mat-card-title>
+      <mat-form-field appearance="fill">
+        <mat-label>Название</mat-label>
+        <input matInput formControlName="title">
+        <mat-error *ngIf="newItemForm.get('title')?.hasError('required')">Поле обязательно для заполнения</mat-error>
+        <mat-error *ngIf="newItemForm.get('title')?.hasError('minlength')">Минимальная длина 4 символа</mat-error>
+        <mat-error *ngIf="newItemForm.get('title')?.hasError('titleValid')">Только русские символы и пробел</mat-error>
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Краткое описание</mat-label>
+        <input matInput formControlName="description">
+        <mat-error *ngIf="newItemForm.get('description')?.hasError('required')">Поле обязательно для заполнения</mat-error>
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Подробное описание</mat-label>
+        <textarea matInput formControlName="full"></textarea>
+        <mat-error *ngIf="newItemForm.get('full')?.hasError('required')">Поле обязательно для заполнения</mat-error>
+      </mat-form-field>
+      <mat-card-actions [class.disabled]="!(newItemForm.dirty && newItemForm.valid)">
+        <button mat-button (click)="addNewItem()" [disabled]="!(newItemForm.dirty && newItemForm.valid)">Сохранить</button>
+      </mat-card-actions>
+    </form>
+  </div>
+</div>

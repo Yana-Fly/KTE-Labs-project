@@ -1,0 +1,10 @@
+<div class="items">
+  <div class="container">
+    <div class="items__content">
+      <item-card class="item-card" *ngFor="let item of items" [item]="item"></item-card>
+      <mat-card class="item-card add-card" routerLink="/add-item">
+        <mat-card-title><span class="add-card__elem">+</span>Добавить новую породу</mat-card-title>
+      </mat-card>
+    </div>
+  </div>
+</div>

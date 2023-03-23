@@ -1,0 +1,17 @@
+<mat-card class="item-card">
+  <mat-card-header>
+    <div mat-card-avatar class="item-card__header-image" *ngIf="item.img" style="background-image: url('/assets/images/{{item.img}}');"></div>
+    <div mat-card-avatar class="item-card__header-image" *ngIf="!item.img" style="background-image: url('/assets/images/dog.jpg');"></div>
+    <mat-card-title [routerLink]="['/items', item.id]">{{item.title}}</mat-card-title>
+  </mat-card-header>
+  <img mat-card-image *ngIf="item.img" src="/assets/images/{{item.img}}" alt="{{item.title}}">
+  <img mat-card-image *ngIf="!item.img" src="/assets/images/dog.jpg" alt="{{item.title}}">
+  <mat-card-content>
+    <p>
+      {{item.description}}
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button [routerLink]="['/items', item.id]">Подробнее</button>
+  </mat-card-actions>
+</mat-card>

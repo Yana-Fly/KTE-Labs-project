@@ -1,0 +1,33 @@
+.items {
+  $items: &;
+  padding: 20px 0;
+
+  .container {
+
+    #{ $items }__content {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+
+      .item-card {
+        flex: 0 0 auto;
+        width: 32.2%;
+
+        &.add-card {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          min-height: 200px;
+          cursor: pointer;
+
+          .add-card__elem {
+            margin-right: 10px;
+            font-size: 20px;
+            line-height: 33px;
+            color: #CED4DA;
+          }
+        }
+      }
+    }
+  }
+}

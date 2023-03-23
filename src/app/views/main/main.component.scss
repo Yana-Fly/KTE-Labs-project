@@ -1,0 +1,10 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  &__link {
+    color: #709FDC;
+  }
+}
