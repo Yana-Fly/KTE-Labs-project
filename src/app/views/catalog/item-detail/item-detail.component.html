@@ -2,13 +2,13 @@
   <div class="container">
     <mat-card class="item-card" *ngIf="item">
       <mat-card-header>
-        <div mat-card-avatar class="item-card__header-image" *ngIf="item.img" style="background-image: url('/assets/images/{{item.img}}');"></div>
-        <div mat-card-avatar class="item-card__header-image" *ngIf="!item.img" style="background-image: url('/assets/images/dog.jpg');"></div>
+        <div mat-card-avatar class="item-card__header-image" *ngIf="item.img" style="background-image: url('./assets/images/{{item.img}}');"></div>
+        <div mat-card-avatar class="item-card__header-image" *ngIf="!item.img" style="background-image: url('./assets/images/dog.jpg');"></div>
         <mat-card-title>{{item.title}}</mat-card-title>
       </mat-card-header>
       <mat-card-content>
-        <img mat-card-image src="/assets/images/{{item.img}}" *ngIf="item.img" alt="{{item.title}}">
-        <img mat-card-image src="/assets/images/dog.jpg" *ngIf="!item.img" alt="{{item.title}}">
+        <img mat-card-image src="./assets/images/{{item.img}}" *ngIf="item.img" alt="{{item.title}}">
+        <img mat-card-image src="./assets/images/dog.jpg" *ngIf="!item.img" alt="{{item.title}}">
         <div class="detail__info">
           {{item.full}}
           <a routerLink="/items" class="detail__backlink">Назад в каталог</a>
